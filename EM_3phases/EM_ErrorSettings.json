@@ -1,0 +1,40 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_ErrorSettings;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_ErrorSettings:errorNumber;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Error Number"
+            },
+            "name": "errorNumber",
+            "schema": "integer"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_ErrorSettings:errorDescription;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Error Description"
+            },
+            "name": "errorDescription",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter Error Settings"
+    },
+    "name": "ErrorSettings",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TCPConnexion;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TCPConnexion:ipAddress;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "IP Address"
+            },
+            "name": "ipAddress",
+            "schema": "string",
+            "writable": true,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TCPConnexion:tcpPort;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "TCP Port"
+            },
+            "name": "tcpPort",
+            "schema": "string",
+            "writable": true,
+            "trimWhitespace": true
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter TCP Connexion"
+    },
+    "name": "TCPConnexion",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

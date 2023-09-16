@@ -1,0 +1,62 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_RTUConnexion;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_RTUConnexion:rtuParity;1",
+            "@type": [
+                "Property",
+                "BooleanValue"
+            ],
+            "comment": "YES / NONE",
+            "displayName": {
+                "en": "RTU Parity"
+            },
+            "name": "rtuParity",
+            "schema": "boolean",
+            "writable": false,
+            "falseName": {
+                "en": "NONE"
+            },
+            "trueName": {
+                "en": "YES"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_RTUConnexion:rtuStopBits;1",
+            "@type": [
+                "Property",
+                "NumberValue"
+            ],
+            "comment": "1",
+            "displayName": {
+                "en": "RTU Stop Bits"
+            },
+            "name": "rtuStopBits",
+            "schema": "integer",
+            "writable": false
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_RTUConnexion:rtuBaudrate;1",
+            "@type": [
+                "Property",
+                "NumberValue"
+            ],
+            "comment": "9600",
+            "displayName": {
+                "en": "RTU Baudrate"
+            },
+            "name": "rtuBaudrate",
+            "schema": "integer",
+            "writable": false
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter RTU Connexion"
+    },
+    "name": "RTUConnexion",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

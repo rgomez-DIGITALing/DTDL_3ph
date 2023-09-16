@@ -1,0 +1,57 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_CurrentTransformer;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_CurrentTransformer:cTPrimary;1",
+            "@type": [
+                "Property",
+                "NumberValue"
+            ],
+            "comment": "Toroidal Primary",
+            "displayName": {
+                "en": "Current Transformer Primary"
+            },
+            "name": "cTPrimary",
+            "schema": "integer",
+            "writable": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_CurrentTransformer:cTSecondary;1",
+            "@type": [
+                "Property",
+                "NumberValue"
+            ],
+            "comment": "Toroidal Secundary",
+            "displayName": {
+                "en": "Current Transforme Secondary"
+            },
+            "name": "cTSecondary",
+            "schema": "integer",
+            "writable": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_CurrentTransformer:measurementMethod;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "comment": "Direct / Indirect",
+            "displayName": {
+                "en": "Mesurement Method"
+            },
+            "name": "measurementMethod",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": false
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter Current Transformers"
+    },
+    "name": "CurrentTransformer",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

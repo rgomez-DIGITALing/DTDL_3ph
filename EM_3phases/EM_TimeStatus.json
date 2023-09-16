@@ -1,0 +1,61 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus:timestamp;1",
+            "@type": [
+                "Telemetry",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Telemetry TimeStamp"
+            },
+            "name": "timestamp",
+            "schema": "string",
+            "trimWhitespace": false
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus:comState;1",
+            "@type": "Telemetry",
+            "displayName": {
+                "en": "Status ModBus Conexión"
+            },
+            "name": "comState",
+            "schema": {
+                "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus:comState:schema;1",
+                "@type": "Enum",
+                "displayName": {
+                    "en": "Enum"
+                },
+                "enumValues": [
+                    {
+                        "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus:comState:schema:ModBusConnected;1",
+                        "displayName": {
+                            "en": "ModBus Connected"
+                        },
+                        "enumValue": 1,
+                        "name": "ModBusConnected"
+                    },
+                    {
+                        "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus:comState:schema:ModBusDisconnected;1",
+                        "displayName": {
+                            "en": "ModBus Disconnected"
+                        },
+                        "enumValue": 0,
+                        "name": "ModBusDisconnected"
+                    }
+                ],
+                "valueSchema": "integer"
+            }
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter Time & Status"
+    },
+    "name": "Time_Status",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

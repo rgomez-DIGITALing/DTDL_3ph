@@ -1,0 +1,110 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:identifier;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Identifier"
+            },
+            "name": "identifier",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:model;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Model"
+            },
+            "name": "model",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:brand;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Brand"
+            },
+            "name": "brand",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:numPhases;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Number of phases"
+            },
+            "name": "numPhases",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:partNumber;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Part Number"
+            },
+            "name": "partNumber",
+            "schema": "string",
+            "writable": true,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:comType;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "COM type"
+            },
+            "name": "comType",
+            "schema": "string",
+            "writable": false,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation:modbusAddress;1",
+            "@type": [
+                "Property",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "ModBus Address"
+            },
+            "name": "modbusAddress",
+            "schema": "integer",
+            "writable": false
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter Device Information"
+    },
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}
