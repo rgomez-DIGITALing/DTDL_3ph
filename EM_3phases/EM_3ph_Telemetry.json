@@ -1,0 +1,969 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L1-N"
+            },
+            "name": "voltageL1N",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L2-N"
+            },
+            "name": "voltageL2N",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L3-N"
+            },
+            "name": "voltageL3N",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL1L2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L1-L2"
+            },
+            "name": "voltageL1L2",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL2L3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L2-L3"
+            },
+            "name": "voltageL2L3",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:voltageL1L3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Voltage L1-L3"
+            },
+            "name": "voltageL1L3",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgVoltageLN;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Average Voltage L-N"
+            },
+            "name": "avgVoltageLN",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgVoltageLL;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Voltage"
+            ],
+            "displayName": {
+                "en": "Average Voltage L-L"
+            },
+            "name": "avgVoltageLL",
+            "schema": "float",
+            "unit": "volt",
+            "displayUnit": {
+                "en": "V"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:currentL1;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Current L1"
+            },
+            "name": "currentL1",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:currentL2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Current L2"
+            },
+            "name": "currentL2",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:currentL3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Current L3"
+            },
+            "name": "currentL3",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:currentTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Current Total"
+            },
+            "name": "currentTotal",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:currentNeutral;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Current Neutral"
+            },
+            "name": "currentNeutral",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgCurrentL;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Current"
+            ],
+            "displayName": {
+                "en": "Average Current L"
+            },
+            "name": "avgCurrentL",
+            "schema": "float",
+            "unit": "ampere",
+            "displayUnit": {
+                "en": "A"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realPowerL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "displayName": {
+                "en": "Real Power L1-N"
+            },
+            "name": "realPowerL1N",
+            "schema": "float",
+            "unit": "watt",
+            "displayUnit": {
+                "en": "W"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realPowerL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "displayName": {
+                "en": "Real Power L2-N"
+            },
+            "name": "realPowerL2N",
+            "schema": "float",
+            "unit": "watt",
+            "displayUnit": {
+                "en": "W"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realPowerL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "displayName": {
+                "en": "Real Power L3-N"
+            },
+            "name": "realPowerL3N",
+            "schema": "float",
+            "unit": "watt",
+            "displayUnit": {
+                "en": "W"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realPowerTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "displayName": {
+                "en": "Real Power Total"
+            },
+            "name": "realPowerTotal",
+            "schema": "float",
+            "unit": "watt",
+            "displayUnit": {
+                "en": "W"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentPowerL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "Volt-Ampere",
+            "displayName": {
+                "en": "Apparent Power L1-N"
+            },
+            "name": "apparentPowerL1N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "VA"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentPowerL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "Volt-Ampere",
+            "displayName": {
+                "en": "Apparent Power L2-N"
+            },
+            "name": "apparentPowerL2N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "VA"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentPowerL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "Volt-Ampere",
+            "displayName": {
+                "en": "Apparent Power L3-N"
+            },
+            "name": "apparentPowerL3N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "VA"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentPowerTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "Volt-Ampere",
+            "displayName": {
+                "en": "Apparent Power Total"
+            },
+            "name": "apparentPowerTotal",
+            "schema": "float",
+            "displayUnit": {
+                "en": "VA"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactivePowerL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "volt-ampere reactive",
+            "displayName": {
+                "en": "Reactive Power L1-N"
+            },
+            "name": "reactivePowerL1N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "var"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactivePowerL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "volt-ampere reactive",
+            "displayName": {
+                "en": "Reactive Power L2-N"
+            },
+            "name": "reactivePowerL2N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "var"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactivePowerL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "volt-ampere reactive",
+            "displayName": {
+                "en": "Reactive Power L3-N"
+            },
+            "name": "reactivePowerL3N",
+            "schema": "float",
+            "displayUnit": {
+                "en": "var"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactivePowerTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Power"
+            ],
+            "comment": "volt-ampere reactive",
+            "displayName": {
+                "en": "Reactive Power Total"
+            },
+            "name": "reactivePowerTotal",
+            "schema": "float",
+            "displayUnit": {
+                "en": "var"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:cosPhiL1;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Cos Phi L1"
+            },
+            "name": "cosPhiL1",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:cosPhiL2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Cos Phi L2"
+            },
+            "name": "cosPhiL2",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:cosPhiL3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Cos Phi L3"
+            },
+            "name": "cosPhiL3",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgCosPhi;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Average Cos Phi"
+            },
+            "name": "avgCosPhi",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realEnergyL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Energy"
+            ],
+            "displayName": {
+                "en": "Real Energy L1-N"
+            },
+            "name": "realEnergyL1N",
+            "schema": "float",
+            "unit": "kilowattHour",
+            "displayUnit": {
+                "en": "kWh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realEnergyL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Energy"
+            ],
+            "displayName": {
+                "en": "Real Energy L2-N"
+            },
+            "name": "realEnergyL2N",
+            "schema": "float",
+            "unit": "kilowattHour",
+            "displayUnit": {
+                "en": "kWh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realEnergyL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Energy"
+            ],
+            "displayName": {
+                "en": "Real Energy L3-N"
+            },
+            "name": "realEnergyL3N",
+            "schema": "float",
+            "unit": "kilowattHour",
+            "displayUnit": {
+                "en": "kWh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:realEnergyTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Energy"
+            ],
+            "displayName": {
+                "en": "Real Energy Total"
+            },
+            "name": "realEnergyTotal",
+            "schema": "float",
+            "unit": "kilowattHour",
+            "displayUnit": {
+                "en": "kWh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentEnergyL1;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere hour",
+            "displayName": {
+                "en": "Apparent Energy L1"
+            },
+            "name": "apparentEnergyL1",
+            "schema": "float",
+            "displayUnit": {
+                "en": "KVAh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentEnergyL2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere hour",
+            "displayName": {
+                "en": "Apparent Energy L2"
+            },
+            "name": "apparentEnergyL2",
+            "schema": "float",
+            "displayUnit": {
+                "en": "kVAh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentEnergyL3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere hour",
+            "displayName": {
+                "en": "Apparent Energy L3"
+            },
+            "name": "apparentEnergyL3",
+            "schema": "double",
+            "displayUnit": {
+                "en": "kVAh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:apparentEnergyTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere hour",
+            "displayName": {
+                "en": "Apparent Energy Total"
+            },
+            "name": "apparentEnergyTotal",
+            "schema": "double",
+            "displayUnit": {
+                "en": "kVAh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactiveEnergyL1;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere reactive hour",
+            "displayName": {
+                "en": "Reactive Energy L1"
+            },
+            "name": "reactiveEnergyL1",
+            "schema": "float",
+            "displayUnit": {
+                "en": "kvarh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactiveEnergyL2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere reactive hour",
+            "displayName": {
+                "en": "Reactive Energy L2"
+            },
+            "name": "reactiveEnergyL2",
+            "schema": "float",
+            "displayUnit": {
+                "en": "kvarh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactiveEnergyL3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere reactive hour",
+            "displayName": {
+                "en": "Reactive Energy L3"
+            },
+            "name": "reactiveEnergyL3",
+            "schema": "float",
+            "displayUnit": {
+                "en": "kvarh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:reactiveEnergyTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "comment": "kilovolt-ampere reactive hour",
+            "displayName": {
+                "en": "Reactive Energy Total"
+            },
+            "name": "reactiveEnergyTotal",
+            "schema": "float",
+            "displayUnit": {
+                "en": "kvarh"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:powerFactorL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Power Factor L1-N"
+            },
+            "name": "powerFactorL1N",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:powerFactorL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Power Factor L2-N"
+            },
+            "name": "powerFactorL2N",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:powerFactorL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Power Factor L3-N"
+            },
+            "name": "powerFactorL3N",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:powerFactorTotal;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Power Factor Total"
+            },
+            "name": "powerFactorTotal",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:rotField;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Rotation Field"
+            },
+            "name": "rotField",
+            "schema": "float"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L1-N"
+            },
+            "name": "THDVoltsL1N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L2-N"
+            },
+            "name": "THDVoltsL2N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L3-N"
+            },
+            "name": "THDVoltsL3N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgTHDVoltsLN;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Average THD Volts L-N"
+            },
+            "name": "avgTHDVoltsLN",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL1L2;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L1-L2"
+            },
+            "name": "THDVoltsL1L2",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL2L3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L2-L3"
+            },
+            "name": "THDVoltsL2L3",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDVoltsL1L3;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Volts L1-L3"
+            },
+            "name": "THDVoltsL1L3",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgTHDVoltsLL;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Average THD Volts L-L"
+            },
+            "name": "avgTHDVoltsLL",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDCurrentL1N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Current L1-N"
+            },
+            "name": "THDCurrentL1N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDCurrentL2N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Current L2-N"
+            },
+            "name": "THDCurrentL2N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:THDCurrentL3N;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "THD Current L3-N"
+            },
+            "name": "THDCurrentL3N",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:avgTHDCurrentLN;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue"
+            ],
+            "displayName": {
+                "en": "Average Current L-N"
+            },
+            "name": "avgTHDCurrentLN",
+            "schema": "float",
+            "unit": "percent",
+            "displayUnit": {
+                "en": "%"
+            }
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry:frequency;1",
+            "@type": [
+                "Telemetry",
+                "NumberValue",
+                "Frequency"
+            ],
+            "displayName": {
+                "en": "Frequency"
+            },
+            "name": "frequency",
+            "schema": "float",
+            "unit": "megahertz",
+            "displayUnit": {
+                "en": "Hz"
+            }
+        }
+    ],
+    "displayName": {
+        "en": "Energy Meter 3ph Telemetry"
+    },
+    "name": "Telemetry",
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:location1",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Location Details 1"
+            },
+            "name": "location1",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:location2",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Location Details 2"
+            },
+            "name": "location2",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:location3",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Location Details 4"
+            },
+            "name": "location3",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:location4",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Additional Location Insights"
+            },
+            "name": "location4",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:asset",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Asset"
+            },
+            "name": "asset",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:assetComments",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "description": {
+                "en": "Asset brand, model, contact service info, etc..."
+            },
+            "displayName": {
+                "en": "Asset Comments"
+            },
+            "name": "assetComments",
+            "schema": "string",
+            "maxLength": 200,
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:customField1",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Custom Field 1"
+            },
+            "name": "customField1",
+            "schema": "string"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:customField2",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Custom Field 2"
+            },
+            "name": "customField2",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:customField3",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Custom Field 3"
+            },
+            "name": "customField3",
+            "schema": "string"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:customField4",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Custom Field 4"
+            },
+            "name": "customField4",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:deviceTag",
+            "@type": [
+                "Property",
+                "Cloud",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Device Tag"
+            },
+            "name": "deviceTag",
+            "schema": "string",
+            "trimWhitespace": true
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:locationMap",
+            "@type": [
+                "Property",
+                "Cloud",
+                "Location"
+            ],
+            "displayName": {
+                "en": "Device Mapping"
+            },
+            "name": "locationMap",
+            "schema": "geopoint"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_DeviceInformation;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "Device Information"
+            },
+            "name": "EM_DeviceInformation",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_DeviceInformation;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_3ph_Telemetry;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "3ph Telemetry"
+            },
+            "name": "EM_3ph_Telemetry",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Telemetry;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_TimeStatus;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "Time & Status"
+            },
+            "name": "EM_TimeStatus",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_TimeStatus;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_TCPConnexion;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "TCP Connexion"
+            },
+            "name": "EM_TCPConnexion",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_TCPConnexion;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_RTUConnexion;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "RTU Connexion"
+            },
+            "name": "EM_RTUConnexion",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_RTUConnexion;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_CurrentTransformer;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "Current Transformers"
+            },
+            "name": "EM_CurrentTransformer",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_CurrentTransformer;1"
+        },
+        {
+            "@id": "dtmi:WeidmullerSA:EnergyMeter:Ph3:EM_3ph_Model:EM_ErrorSettings;1",
+            "@type": "Component",
+            "displayName": {
+                "en": "Error Settings"
+            },
+            "name": "EM_ErrorSettings",
+            "schema": "dtmi:WeidmullerSA:EnergyMeter:EM_ErrorSettings;1"
+        }
+    ],
+    "displayName": {
+        "en": "WEDIMÜLLER ENERGY METER 3 PHASES"
+    },
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}
